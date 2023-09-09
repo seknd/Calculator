@@ -14,8 +14,6 @@ function cal() {
    let calculated = eval(numbers)
     console.log(calculated);
 
-        reset()
-
     document.querySelector('.js-calculaton').innerHTML = calculated
 
 }
